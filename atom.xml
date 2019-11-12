@@ -1,20 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="https://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Gaomu&#39;s Blog</title>
   
-  
+  <subtitle>一直在找一个可以属于自己归宿，让我可以敞开心扉！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-12T04:43:33.065Z</updated>
+  <updated>2019-11-12T13:07:54.633Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>高木</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客模板</title>
+    <link href="http://yoursite.com/2019/11/12/%E5%8D%9A%E5%AE%A2%E6%A8%A1%E6%9D%BF/"/>
+    <id>http://yoursite.com/2019/11/12/%E5%8D%9A%E5%AE%A2%E6%A8%A1%E6%9D%BF/</id>
+    <published>2019-11-12T12:59:50.000Z</published>
+    <updated>2019-11-12T13:07:54.633Z</updated>
+    
+    <content type="html"><![CDATA[<p>#博客的相关信息</p><p><em>基本内容已经准备好了</em></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#博客的相关信息&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;基本内容已经准备好了&lt;/em&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
