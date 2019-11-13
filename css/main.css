@@ -158,7 +158,7 @@ body {
   background: #f5f7f9;
   color: #555;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 2;
 }
 @media (max-width: 991px) {
@@ -173,7 +173,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'consolas', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -374,7 +374,7 @@ pre,
 }
 pre,
 code {
-  font-family: consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
+  font-family: 'PT Mono', consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
 }
 code {
   background: #eee;
@@ -1146,7 +1146,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #6ea2ab;
+  background: #777803;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1196,6 +1196,7 @@ pre .javascript .function {
   padding: 0;
 }
 .links-of-blogroll-item {
+  display: inline-block;
   padding: 2px 10px;
 }
 .links-of-blogroll-item a,
@@ -1497,7 +1498,7 @@ pre .javascript .function {
 .post-body {
   overflow-wrap: break-word;
   word-wrap: break-word;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Microsoft YaHei', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 @media (min-width: 1200px) {
   .post-body {
@@ -1807,7 +1808,7 @@ pre .javascript .function {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Microsoft YaHei', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin: 3px 0 60px 0;
   text-align: center;
@@ -2595,6 +2596,29 @@ ul.breadcrumb li + li:last-child {
 .links-of-author-item .fa {
   margin-right: 2px;
 }
+.links-of-blogroll::before,
+.links-of-blogroll::after {
+  content: ' ';
+  display: table;
+}
+.links-of-blogroll::after {
+  clear: both;
+}
 .links-of-blogroll-item {
   padding: 0;
+  margin: 5px 0 0;
+  width: 50%;
+  width: unset;
+}
+.links-of-blogroll-item a,
+.links-of-blogroll-item span.exturl {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 0;
+  max-width: 216px;
+  overflow: hidden;
+  padding: 0 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
